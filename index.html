@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <title>SPORTBUTIKEN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-main-text">SPORTBUTIKEN</h1>
+    </header>
+    <main class="main">
+        <div id="not-logged-in">
+            <div class="container image-container">
+                <img src="images/image1.webp" class="image"/>
+            </div>
+            <form id="form" class="container form-container">
+                <h2 class="form-header">Logga in här</h2>
+                <label for="username">Användernamn</label>
+                <div class="input">
+                    <input name="username" id="username"/>
+                </div>
+                <label for="password">Lösenord</label>
+                <div class="input">
+                    <input type="password" name="password" id="password"/>
+                </div>
+                <button class="button">Logga in</button>
+            </form>
+            <div class="container info-container">
+                <h2>Regler för att användare</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae suscipit nunc, at hendrerit erat. Nam suscipit eros ante, posuere tristique tortor viverra in. Donec eget erat aliquet, tempor velit vehicula, imperdiet lacus. Donec placerat laoreet magna quis condimentum. Maecenas quis risus sed diam interdum tincidunt. Donec id imperdiet odio, eu tincidunt purus. Aenean vel pharetra orci. Ut sollicitudin tincidunt rhoncus.</p>
+            </div>
+        </div>
+        <div class="hide container" id="is-logged-in">
+            <h2 class="logged-in-header">Välkommen du är nu inloggad</h2>
+            <button id="logout-button" class="button logout-button">Klicka här för att logga ut</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>© 1999-2023 SPORTBUTIKEN AB, Org.Nr: 111111-1111</p>
+    </footer>
+</body>
+
+
+</html>

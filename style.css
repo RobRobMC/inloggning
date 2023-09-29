@@ -1,0 +1,102 @@
+*{
+    word-wrap: break-word;
+}
+
+body{
+    margin:0;
+}
+
+.header{
+    background-color: #527637;
+    padding: 1.5rem 1rem;
+    color:white;
+    text-align:center;
+}
+
+@media screen and (min-width:992px) {
+    .header{
+        text-align:left;
+    }
+}
+
+.header-main-text{
+    margin:0;
+}
+
+.main{
+    padding:3rem 2rem;
+    background-color: #4b692f
+}
+
+.footer{
+    background-color: #30491d;
+    padding: 1rem;
+    text-align: center;
+    color:white;
+}
+
+.image-container{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.image{
+    width:200px;
+    max-width:100%;
+}
+
+.hide{
+    display:none;
+}
+
+.form-header{
+    text-align: center;
+    margin:0;
+    margin-bottom:1rem;
+}
+
+.input{
+    background-color:white;
+    padding:.25rem;
+    border:1px solid grey;
+    border-radius: 2px;
+    margin-bottom:1rem;
+}
+
+.input > input{
+    border:0;
+    width:100%;
+    outline:0;
+}
+
+.button{
+    background-color:goldenrod;
+    border:0;
+    padding:.75rem 1rem;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: bold;
+    color:white;
+    cursor:pointer;
+}
+
+.container{
+    max-width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    padding:1rem;
+    border-radius: 5px;
+}
+
+.logged-in-header{
+    text-align: center;
+}
+
+.logout-button{
+    width:100%;
+}
+
+.form-container{
+    margin-bottom:1rem;
+}
